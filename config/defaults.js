@@ -1,0 +1,1 @@
+exports.title= "My Simple.js site";

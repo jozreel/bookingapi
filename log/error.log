@@ -1,0 +1,775 @@
+
+2017-02-23T20:50:16.691Z
+_id is not defined
+
+2017-02-23T20:50:16.691Z
+ReferenceError: _id is not defined
+    at user.adduserMethod (/home/jozreel/Development/www/bookingapi/application/controller/user.js:36:84)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:31:18)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-23T20:53:08.692Z
+usermod is not defined
+
+2017-02-23T20:53:08.692Z
+ReferenceError: usermod is not defined
+    at user.adduserMethod (/home/jozreel/Development/www/bookingapi/application/controller/user.js:44:9)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:31:18)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-24T19:39:10.957Z
+passwordr is not defined
+
+2017-02-24T19:39:10.957Z
+ReferenceError: passwordr is not defined
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:16:38)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-24T19:39:20.959Z
+passwordr is not defined
+
+2017-02-24T19:39:20.959Z
+ReferenceError: passwordr is not defined
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:16:38)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-24T19:54:09.819Z
+tels.forEacch is not a function
+
+2017-02-24T19:54:09.819Z
+TypeError: tels.forEacch is not a function
+    at user.telgroupTest (/home/jozreel/Development/www/bookingapi/application/controller/user.js:58:14)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:16:71)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-24T19:58:17.564Z
+validatetelNo is not defined
+
+2017-02-24T19:58:17.564Z
+ReferenceError: validatetelNo is not defined
+    at tels.forEach (/home/jozreel/Development/www/bookingapi/application/controller/user.js:59:18)
+    at Array.forEach (native)
+    at user.telgroupTest (/home/jozreel/Development/www/bookingapi/application/controller/user.js:58:14)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:16:71)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-24T20:23:02.670Z
+tel is not defined
+
+2017-02-24T20:23:02.670Z
+ReferenceError: tel is not defined
+    at user.telgroupTest (/home/jozreel/Development/www/bookingapi/application/controller/user.js:62:44)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:16:73)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-24T20:23:17.251Z
+tel is not defined
+
+2017-02-24T20:23:17.251Z
+ReferenceError: tel is not defined
+    at user.telgroupTest (/home/jozreel/Development/www/bookingapi/application/controller/user.js:63:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:16:73)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-24T20:23:57.551Z
+tesl is not defined
+
+2017-02-24T20:23:57.551Z
+ReferenceError: tesl is not defined
+    at user.telgroupTest (/home/jozreel/Development/www/bookingapi/application/controller/user.js:63:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:16:73)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-24T23:42:44.233Z
+Cannot read property 'length' of undefined
+
+2017-02-24T23:42:44.233Z
+TypeError: Cannot read property 'length' of undefined
+    at user.telgroupTest (/home/jozreel/Development/www/bookingapi/application/controller/user.js:61:29)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:16:73)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-26T21:56:29.515Z
+encrypt is not a constructor
+
+2017-02-26T21:56:29.515Z
+TypeError: encrypt is not a constructor
+    at user.adduserMethod (/home/jozreel/Development/www/bookingapi/application/controller/user.js:78:19)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:38:18)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-26T21:56:38.267Z
+encrypt is not a constructor
+
+2017-02-26T21:56:38.267Z
+TypeError: encrypt is not a constructor
+    at user.adduserMethod (/home/jozreel/Development/www/bookingapi/application/controller/user.js:78:19)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:38:18)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-26T22:08:17.731Z
+enc is not a constructor
+
+2017-02-26T22:08:17.731Z
+TypeError: enc is not a constructor
+    at user.adduserMethod (/home/jozreel/Development/www/bookingapi/application/controller/user.js:78:15)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:38:18)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-26T22:09:19.178Z
+Cannot read property 'encrypt' of undefined
+
+2017-02-26T22:09:19.178Z
+TypeError: Cannot read property 'encrypt' of undefined
+    at user.adduserMethod (/home/jozreel/Development/www/bookingapi/application/controller/user.js:79:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:38:18)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-26T22:11:21.603Z
+enc is not a constructor
+
+2017-02-26T22:11:21.603Z
+TypeError: enc is not a constructor
+    at user.adduserMethod (/home/jozreel/Development/www/bookingapi/application/controller/user.js:78:15)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:38:18)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-26T22:13:11.285Z
+Cipher data must be a string or a buffer
+
+2017-02-26T22:13:11.285Z
+TypeError: Cipher data must be a string or a buffer
+    at Cipher.update (crypto.js:144:26)
+    at Object.exports.encrypt (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/secure.js:7:24)
+    at user.adduserMethod (/home/jozreel/Development/www/bookingapi/application/controller/user.js:79:41)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:38:18)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-26T22:14:24.110Z
+password is not defined
+
+2017-02-26T22:14:24.110Z
+ReferenceError: password is not defined
+    at user.adduserMethod (/home/jozreel/Development/www/bookingapi/application/controller/user.js:80:21)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:38:18)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T00:57:03.699Z
+state is not defined
+
+2017-02-27T00:57:03.699Z
+ReferenceError: state is not defined
+    at new session (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/session.js:10:19)
+    at user.login (/home/jozreel/Development/www/bookingapi/application/controller/user.js:202:17)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T00:58:09.277Z
+Cannot read property 'postdata' of undefined
+
+2017-02-27T00:58:09.277Z
+TypeError: Cannot read property 'postdata' of undefined
+    at user.login (/home/jozreel/Development/www/bookingapi/application/controller/user.js:203:36)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T00:58:50.751Z
+user.findAndUpdate is not a function
+
+2017-02-27T00:58:50.751Z
+TypeError: user.findAndUpdate is not a function
+    at user.login (/home/jozreel/Development/www/bookingapi/application/controller/user.js:206:13)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T01:33:15.997Z
+Cannot read property 'search' of undefined
+
+2017-02-27T01:33:15.997Z
+TypeError: Cannot read property 'search' of undefined
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:97:36)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T01:34:52.887Z
+Cannot read property 'search' of undefined
+
+2017-02-27T01:34:52.887Z
+TypeError: Cannot read property 'search' of undefined
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:97:36)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T01:35:25.849Z
+Cannot read property 'search' of undefined
+
+2017-02-27T01:35:25.849Z
+TypeError: Cannot read property 'search' of undefined
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:97:36)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T03:08:44.400Z
+Cannot read property 'replace' of undefined
+
+2017-02-27T03:08:44.400Z
+TypeError: Cannot read property 'replace' of undefined
+    at urlencode.addspecial (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:87:15)
+    at user.login (/home/jozreel/Development/www/bookingapi/application/controller/user.js:201:43)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T03:17:37.911Z
+Cipher data must be a string or a buffer
+
+2017-02-27T03:17:37.911Z
+TypeError: Cipher data must be a string or a buffer
+    at Cipher.update (crypto.js:144:26)
+    at Object.exports.encrypt (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/secure.js:7:24)
+    at user.login (/home/jozreel/Development/www/bookingapi/application/controller/user.js:212:40)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T03:18:37.355Z
+Cipher data must be a string or a buffer
+
+2017-02-27T03:18:37.355Z
+TypeError: Cipher data must be a string or a buffer
+    at Cipher.update (crypto.js:144:26)
+    at Object.exports.encrypt (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/secure.js:7:24)
+    at user.login (/home/jozreel/Development/www/bookingapi/application/controller/user.js:212:40)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T03:18:55.451Z
+Cipher data must be a string or a buffer
+
+2017-02-27T03:18:55.451Z
+TypeError: Cipher data must be a string or a buffer
+    at Cipher.update (crypto.js:144:26)
+    at Object.exports.encrypt (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/secure.js:7:24)
+    at user.login (/home/jozreel/Development/www/bookingapi/application/controller/user.js:212:40)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T03:46:00.487Z
+onject is not defined
+
+2017-02-27T03:46:00.487Z
+ReferenceError: onject is not defined
+    at stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:238:21)
+    at user.login (/home/jozreel/Development/www/bookingapi/application/controller/user.js:201:5)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T03:49:36.531Z
+a is not defined
+
+2017-02-27T03:49:36.531Z
+ReferenceError: a is not defined
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:221:14)
+    at user.login (/home/jozreel/Development/www/bookingapi/application/controller/user.js:189:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:16:05.890Z
+string.replace is not a function
+
+2017-02-27T14:16:05.890Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:100:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:110:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:226:35)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:16:15.892Z
+string.replace is not a function
+
+2017-02-27T14:16:15.892Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:100:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:110:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:226:35)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:16:25.904Z
+string.replace is not a function
+
+2017-02-27T14:16:25.904Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:100:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:110:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:226:35)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:16:35.910Z
+string.replace is not a function
+
+2017-02-27T14:16:35.910Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:100:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:110:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:226:35)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:18:07.609Z
+string.replace is not a function
+
+2017-02-27T14:18:07.609Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:100:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:110:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:18:17.612Z
+string.replace is not a function
+
+2017-02-27T14:18:17.612Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:100:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:110:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:18:27.623Z
+string.replace is not a function
+
+2017-02-27T14:18:27.623Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:100:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:110:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:18:37.627Z
+string.replace is not a function
+
+2017-02-27T14:18:37.627Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:100:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:110:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:22:42.646Z
+string.replace is not a function
+
+2017-02-27T14:22:42.646Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:106:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:116:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:22:52.649Z
+string.replace is not a function
+
+2017-02-27T14:22:52.649Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:106:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:116:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:23:02.661Z
+string.replace is not a function
+
+2017-02-27T14:23:02.661Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:106:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:116:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:23:12.665Z
+string.replace is not a function
+
+2017-02-27T14:23:12.665Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:106:17)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:116:31)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:26:14.925Z
+string.replace is not a function
+
+2017-02-27T14:26:14.925Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:108:19)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:122:34)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:26:24.927Z
+string.replace is not a function
+
+2017-02-27T14:26:24.927Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:108:19)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:122:34)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:26:34.934Z
+string.replace is not a function
+
+2017-02-27T14:26:34.934Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:108:19)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:122:34)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:26:44.937Z
+string.replace is not a function
+
+2017-02-27T14:26:44.937Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:108:19)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:122:34)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:27:53.665Z
+string.replace is not a function
+
+2017-02-27T14:27:53.665Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:109:19)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:123:34)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:28:03.666Z
+string.replace is not a function
+
+2017-02-27T14:28:03.666Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:109:19)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:123:34)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:28:13.675Z
+string.replace is not a function
+
+2017-02-27T14:28:13.675Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:109:19)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:123:34)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-27T14:28:23.681Z
+string.replace is not a function
+
+2017-02-27T14:28:23.681Z
+TypeError: string.replace is not a function
+    at urlencode.removeTags (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:109:19)
+    at urlencode.removeTagsAndStrip (/home/jozreel/Development/www/bookingapi/node_modules/simple/library/urlencode.js:123:34)
+    at user.stripObject (/home/jozreel/Development/www/bookingapi/application/controller/user.js:227:37)
+    at user.addUser (/home/jozreel/Development/www/bookingapi/application/controller/user.js:13:14)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-28T13:35:25.476Z
+Cannot read property 'split' of undefined
+
+2017-02-28T13:35:25.476Z
+TypeError: Cannot read property 'split' of undefined
+    at booking.addBooking (/home/jozreel/Development/www/bookingapi/application/controller/booking.js:13:47)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-28T13:35:40.906Z
+Cannot read property 'split' of undefined
+
+2017-02-28T13:35:40.906Z
+TypeError: Cannot read property 'split' of undefined
+    at booking.addBooking (/home/jozreel/Development/www/bookingapi/application/controller/booking.js:13:47)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-28T13:36:50.780Z
+Cannot read property 'split' of undefined
+
+2017-02-28T13:36:50.780Z
+TypeError: Cannot read property 'split' of undefined
+    at booking.addBooking (/home/jozreel/Development/www/bookingapi/application/controller/booking.js:13:47)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-02-28T13:40:20.838Z
+Cannot read property 'businessid' of undefined
+
+2017-02-28T13:40:20.838Z
+TypeError: Cannot read property 'businessid' of undefined
+    at booking.addBooking (/home/jozreel/Development/www/bookingapi/application/controller/booking.js:22:137)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)

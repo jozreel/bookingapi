@@ -1,0 +1,27 @@
+{
+  "name": "bookingapi",
+  "version": "1.0.0",
+  "description": "Api for booking service for deferent service providers",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node index.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jozreel/bookingapi.git"
+  },
+  "keywords": [
+    "booking",
+    "reservation"
+  ],
+  "author": "Jozreel Laurent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jozreel/bookingapi/issues"
+  },
+  "homepage": "https://github.com/jozreel/bookingapi#readme",
+  "dependencies": {
+    "paypal-rest-sdk": "^1.7.1"
+  }
+}
