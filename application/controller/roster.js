@@ -14,7 +14,7 @@ module.exports = class roster extends controller
        bookModel.find({user:userid},  (res)=>{
         this.jsonResp(res);
        });
-    }
+    } 
 
     updateTimesAvailableAuto(bid)
     {

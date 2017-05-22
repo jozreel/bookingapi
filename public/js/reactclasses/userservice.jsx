@@ -69,6 +69,31 @@ class UserService
         });
 
     }
+    refreshToken(token)
+    {
+
+        return new Promise((resolve, reject)=>{
+            $.ajax({
+                type:'POST',
+                url:this.restUrl+'/refreshusertoken',
+                data:JSON.stringify({usertoken:token}),
+                dataType:'json',
+                success:(res)=>{
+                    if(!res.error)
+                    {
+                        resolve(res);
+                    }
+                    else
+                    {
+                        reject(res);
+                    }
+                }
+
+            });
+        });
+
+    }
+    
 
 }
 export default UserService;

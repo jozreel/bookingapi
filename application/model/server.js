@@ -7,7 +7,7 @@ module.exports = class server extends pongo {
     saveServer(servobj)
     {
       return new Promise((resolve, Reject)=>{
-          this.insert(servobj, (err,doc)=>{
+          this.insert(servobj, (err,doc)=>{ 
             if(err)
                Reject(err);
             else

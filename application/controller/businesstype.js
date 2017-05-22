@@ -6,4 +6,4 @@ regxpfind:function(needle)
     smodel.findByRegex(needle,(res)=>businesstype.jsonResp(res));
 }
 }
-module.exports =businesstype;
+module.exports =businesstype; 

@@ -60,7 +60,7 @@ class user extends controller {
         if (tels) {
             for (let i = 0; i < tels.length; i++) {
                 if (!this.validateTelNo(tels[i])) {
-                  
+
                     return false;
                 }
             }
@@ -124,9 +124,8 @@ class user extends controller {
 
     }
 
-    updateUser(id)
-    {
-        let umod  = pongomodel('usr');
+    updateUser(id) {
+        let umod = pongomodel('usr');
     }
 
 
@@ -192,7 +191,7 @@ class user extends controller {
 
         });
     }
-    login() {
+    loginwithsession() {
         let urlenc = require('simple').urlencode;
         let urlencode = new urlenc();
         this.stripObject(this.postdata);
@@ -201,41 +200,152 @@ class user extends controller {
         let session = require('simple').session;
         session = new session(this.req, this.res);
         session.set('email', this.postdata.email);
-        session.create();
-        let session_id = session.get('sessionid');
+        let sUtils = require('simple').appGlobals.utils;
 
         this.postdata.password = secure.encrypt(this.postdata.password);
-        usermod.findAndUpdate(this.postdata, { session_id: session_id }, (err, doc) => {
-            if (err) {
-                this.jsonResp({ success: false, error: 'server error' });
+        usermod.findSesssionidByUname(this.postdata).then(res => {
+            let n_session_ids = [];
+
+            if (res) {
+                if (res.session_ids)
+                    n_session_ids = session_ids.sort((a, b) => { return (a.session_id - b.session_id); });
+                /* if (res.session_ids) {
+                     
+                     
+                     
+                     let fs = require('fs');
+                     console.log(require('path').normalize(config.tmppath + "/sessions/" + res.session_id + '.spf'));
+                     if (fs.existsSync(require('path').normalize(config.tmppath + "/sessions/" + res.session_id + '.spf'))) {
+                         fs.unlinkSync(require('path').normalize(config.tmppath + "/sessions/" + res.session_id + '.spf'));
+                     }
+                 }*/
+
+
+                session.create();
+
+                let expDate = session.get("expires");
+                let session_id = session.get('sessionid');
+                if (n_session_ids.length > 0)
+                    removeExpiredSessions(n_session_ids);
+                n_session_ids.push({ session_id: session_id, expires: expDate });
+                usermod.findAndUpdate(this.postdata, { session_id: session_id }, (err, doc) => {
+                    console.log(doc);
+                    if (err) {
+                        this.jsonResp({ success: false, error: 'server error' });
+                    }
+                    else {
+                        if (!doc)
+                            doc = { success: false, error: 'login error' };
+                        else {
+                            doc.session_ids = session_id;
+                            delete doc.password;
+                        }
+                        this.jsonResp(doc);
+                    }
+                });
             }
             else {
-                if (!doc)
-                    doc = { success: false, error: 'login error' };
-                else {
-                    doc.session_id = session_id;
-                    delete doc.password;
-                }
-                this.jsonResp(doc);
+                this.jsonResp({ success: false, error: 'invalid login' });
+            }
+        }).catch(err => console.log(err));
+    }
+
+    login() {
+
+        let urlenc = require('simple').urlencode;
+        let urlencode = new urlenc();
+        this.stripObject(this.postdata);
+        let usermod = this.pongomodel('user');
+        let secure = require('simple').secure;
+        let sUtils = require('simple').appGlobals.utils;
+
+        this.postdata.password = secure.encrypt(this.postdata.password);
+        usermod.findOne({ email: this.postdata.email, password: this.postdata.password }, (err, res) => {
+            if (err)
+                ocnsole.log(err);
+            else if(res === null)
+            {
+                this.jsonResp({error:'user not exist'});
+            }
+            else {
+                let crypt = require('crypto');
+                // let rb = crypt.randomBytes(128);
+                // let sec = rb.toString('hex');
+
+                // console.log(sec);
+                let utils = require('simple').appGlobals.utils;
+                const payload = {
+                    sub: res.email,
+                    iss: "freshlooks",
+                    iat: new Date().getTime(),
+                    scopes: { booking: ["create, read"] },
+                    exp: new Date().getTime() + (((60000 * 60)*24) * 7)
+
+                };
+
+                let accessToken = utils.jwt(payload, utils.secret);
+                
+                this.jsonResp({success:true, accessToken:accessToken, email:res.email});
+
+               // let tdata = utils.verifyToken(utils.secret, apiKey);
+
             }
         });
+
+    }
+
+    refreshusertoken()
+    {
+        let userToken = this.postdata.accesstoken;
+         let utils = require('simple').appGlobals.utils;
+         const decodedToken = utils.verifyToken(utils.secret,userToken);
+         if(!decodedToken.error)
+         {
+             if(decodedToken.exp < new Date().getTime()+60000)
+             {
+                 decodedToken.exp = new Date().getTime() + (((60000 * 60)*24) * 7);
+                 let newAccessToken =  utils.jwt(decodedToken);
+                  this.jsonResp({success:true, accessToken:newAccessToken});
+             }
+         }
+         else
+         {
+             this.jsonResp({error:'Expired', action:'login'});
+         }
+
+
     }
 
     stripObject(object) {
         let urlenc = require('simple').urlencode;
         let urlencode = new urlenc();
         for (var a in object) {
-            if(object[a])
-            {
-              if(typeof object[a] == 'object')
-                 this.stripObject(object[a]);
-              else if(typeof object[a] === 'string')
-                object[a] = urlencode.removeTagsAndStrip(object[a]);
+            if (object[a]) {
+                if (typeof object[a] == 'object')
+                    this.stripObject(object[a]);
+                else if (typeof object[a] === 'string')
+                    object[a] = urlencode.removeTagsAndStrip(object[a]);
             }
         }
 
 
     }
+
+
+}
+
+function removeExpiredSessions(sesArrays) {
+    let fs = require('fs');
+    sesArrays.forEach((session) => {
+        if (new Date(session.expires).getTime() < new Date().getTime()) {
+            if (fs.existsSync(require('path').normalize(config.tmppath + "/sessions/" + res.session_id + '.spf'))) {
+                fs.unlinkSync(require('path').normalize(config.tmppath + "/sessions/" + res.session_id + '.spf'));
+            }
+        }
+
+    });
+
+
 }
 
 

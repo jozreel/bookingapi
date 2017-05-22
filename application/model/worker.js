@@ -30,7 +30,7 @@ module.exports = class worker extends pongo {
         return new Promise((resolve, reject) => {
             this.findById(_id, (err, res) => {
                 if (err)
-                    reject(err);
+                    reject(err); 
                 else
                     resolve(res[0]);
             })
@@ -43,6 +43,7 @@ module.exports = class worker extends pongo {
         return new Promise((resolve, reject) => {
             let _id = this.createObjectId(id);
             let timest = utils.timeStampFromDateString(date);
+            
             this.findOne({ _id: _id }, (err, res) => {
                 if (err) reject(err);
 
@@ -55,13 +56,35 @@ module.exports = class worker extends pongo {
                         day = utils.arrayFind(sph, timest, 'date');
                     }
                     if (!day) {
-                        let day = timest.getDay();
+                        let datemade = utils.dateFromDateString(date);
+                        day = datemade.getDay();
+                        if(!res.workinghours)
+                        {
+                            reject({error:'no time alocated for this worker', success:false});
+                            return;
+                        }
                         let opensort = res.workinghours.sort((a, b) => {
                             return a.day - b.day;
 
                         });
 
                         day = utils.arrayFind(opensort, day, 'day');
+                      
+                        if(day.ontimes)
+                        {
+                            day.ontimes.forEach((d)=>{
+                                let ds =  new Date(d.start);
+                                let de = new Date(d.end);
+                                let datestr = date.split('-');
+                                ds.setFullYear(parseInt(datestr[0]), parseInt(datestr[1]-1), parseInt(datestr[2]));
+                                de.setFullYear(parseInt(datestr[0]), parseInt(datestr[1]-1), parseInt(datestr[2]));
+                                d.start = ds.getTime();
+                                d.end = de.getTime();
+                                
+                            });
+                        }
+                        
+
                     }
 
                 }
@@ -175,5 +198,7 @@ module.exports = class worker extends pongo {
         });
 
     }
+
+    
    
 }

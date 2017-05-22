@@ -1,15 +1,16 @@
 import React from 'react';
-import {render} from 'react-dom';
+//import {render} from 'react-dom';
 import $ from 'jquery';
 class ClientHome extends React.Component{
     constructor()
     {
         super();
         this.state = {}
+        console.log('in home');
     }
     getClientDetails()
     {
-
+       ;
     }
     render()
     {
@@ -20,7 +21,8 @@ class ClientHome extends React.Component{
         );
     }
     handleSearchChange(e) {
-        this.setState({ searchtext: e.target.value });
+        this.setState({ searchtext: e.target.value }); 
     }
 }
-render(<ClientHome />, document.getElementById('client') );
+export default ClientHome; 
+//render(<ClientHome />, document.getElementById('client') );

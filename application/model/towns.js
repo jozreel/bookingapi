@@ -18,7 +18,7 @@ addone:function(town,country,callback)
     var nameid = town.replace(/\s/g, '');
     var nameid = nameid.toLowerCase();
     console.log(nameid);
-    this.findOne({nameid:nameid},{},{},(doc)=>{
+    this.findOne({nameid:nameid},{},{},(doc)=>{ 
        if(doc === null)
        {
            

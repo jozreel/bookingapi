@@ -19,7 +19,7 @@ addnew:function(btype,callback)
        else(callback(doc));
     });
 },
-findByRegex:function(needle, callback)
+findByRegex:function(needle, callback) 
 {
   needle =  this.checkanddecode(needle);
    var regexp = '^'+needle+'\\s*';

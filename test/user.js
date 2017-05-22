@@ -15,7 +15,7 @@ chai.use(chaiHttp);
 
 describe('Users', () => {
     beforeEach((done) => {
-        console.log('move');
+       
         User.remove({}, (err, res) => {
             done();
         });

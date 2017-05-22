@@ -28,7 +28,7 @@ module.exports = class user extends pongo {
         this.insertOrUpdate(obj, callback);
     }
 
-    updateUser(id, userobj)
+    updateUser(id, userobj) 
     {
        
         return new Promise((resolve, reject)=>{
@@ -56,6 +56,20 @@ module.exports = class user extends pongo {
             
         });
         
+    }
+
+    findSesssionidByUname(details)
+    {
+        console.log(details);
+        return new Promise((res, rej)=>{
+            this.findOne(details, {session_id:true},(err, doc)=>{
+               if(err)
+                 rej(err);
+               else
+                 res(doc);
+            });
+ 
+        });
     }
 }
 

@@ -16,7 +16,7 @@ addnew:function(serv,callback)
            });
        } 
        else(callback(doc));
-    });
+    }); 
 },
 findByRegex:function(needle, callback)
 {

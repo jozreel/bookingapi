@@ -8,5 +8,5 @@ regxpfind(needle)
     var smodel = this.loadmodel('service');
     
     smodel.findByRegex(needle,(res)=>this.jsonResp(res));
-}
+} 
 }

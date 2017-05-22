@@ -1,6 +1,6 @@
 {
-    "Exceptions":["webapp"],
-    "AppDefaults":{"action":"index", "controler":"webapp", "params":[]},
+    "Exceptions":["api"],
+    "AppDefaults":{"action":"index", "controler":"api", "params":[]},
     "defaultRoutes":[{"params":[], "GET":"getAll{{controller}}","POST":"add{{controller}}"},{"params":["id"], "GET":"get{{controller}}", "PUT":"update{{controller}}", "delete":"remove{{controller}}" }
 
     ]

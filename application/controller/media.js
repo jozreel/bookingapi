@@ -6,7 +6,7 @@ module.exports = class media extends controller
         super();
     }
 
-    addMedia()
+    addMedia() 
     {
         let mediaMod = this.pongomodel('media');
         

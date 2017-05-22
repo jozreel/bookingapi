@@ -22,4 +22,4 @@ exports.passwd = 'p8ssw0rd';
 exports.dbserver = 'localhost';
 exports.dbport = '27017';
 exports.db = 'RTCWEB' 
-exports.opts={dbuser:'dbuser', passwd:'p8ssw0rd',dbserver:'localhost',dbport:'27017', db:'RTCWEB'}; 
+exports.opts={dbuser:'dbuser', passwd:'p8ssw0rd',dbserver:'localhost',dbport:'27017', db:'booker'}; 

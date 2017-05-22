@@ -7,7 +7,7 @@ module.exports = class clientSchedule extends controller
 
     }
     
-    getSchedule(id)
+    getSchedule(id) 
     {
 
     }

@@ -773,3 +773,573 @@ TypeError: Cannot read property 'businessid' of undefined
     at endReadableNT (_stream_readable.js:974:12)
     at _combinedTickCallback (internal/process/next_tick.js:74:11)
     at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-03-03T15:10:05.301Z
+Cannot read property 'updateWorkerTimesAuto' of undefined
+
+2017-03-03T15:10:05.301Z
+TypeError: Cannot read property 'updateWorkerTimesAuto' of undefined
+    at booking.addBooking (/home/jozreel/Development/www/bookingapi/application/controller/booking.js:25:25)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-03-03T15:12:57.162Z
+Cannot read property 'updateWorkerTimesAuto' of undefined
+
+2017-03-03T15:12:57.162Z
+TypeError: Cannot read property 'updateWorkerTimesAuto' of undefined
+    at booking.addBooking (/home/jozreel/Development/www/bookingapi/application/controller/booking.js:25:25)
+    at IncomingMessage.req.on (/home/jozreel/Development/www/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:74:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+2017-04-20T20:20:00.277Z
+sUtils is not defined
+
+2017-04-20T20:20:00.277Z
+ReferenceError: sUtils is not defined
+    at user.login (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:203:16)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-04-20T20:22:00.259Z
+sUtils is not defined
+
+2017-04-20T20:22:00.259Z
+ReferenceError: sUtils is not defined
+    at user.login (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:203:16)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:40:16.305Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:40:16.305Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:42:10.133Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:42:10.133Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:44:10.146Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:44:10.146Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:50:35.902Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:50:35.902Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:51:59.485Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:51:59.485Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:54:32.027Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:54:32.027Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:55:33.811Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:55:33.811Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:56:06.028Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:56:06.028Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:56:55.832Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:56:55.832Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:57:04.980Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:57:04.980Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:57:33.165Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:57:33.165Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:57:44.828Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:57:44.828Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:58:09.486Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:58:09.486Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T06:59:03.716Z
+Cannot read property 'split' of undefined
+
+2017-05-22T06:59:03.716Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:01:03.733Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:01:03.733Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:11:08.214Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:11:08.214Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:11:18.581Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:11:18.581Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:13:18.587Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:13:18.587Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:13:57.488Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:13:57.488Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:16:15.374Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:16:15.374Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:16:34.664Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:16:34.664Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:18:07.123Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:18:07.123Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:18:14.574Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:18:14.574Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:23:21.899Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:23:21.899Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:23:27.872Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:23:27.872Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:25:16.355Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:25:16.355Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:26:51.881Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:26:51.881Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:27:11.847Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:27:11.847Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:27:37.417Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:27:37.417Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:28:26.293Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:28:26.293Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:28:34.828Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:28:34.828Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T07:28:50.975Z
+Cannot read property 'split' of undefined
+
+2017-05-22T07:28:50.975Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T10:49:20.859Z
+Cannot read property 'split' of undefined
+
+2017-05-22T10:49:20.859Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T10:49:31.037Z
+Cannot read property 'split' of undefined
+
+2017-05-22T10:49:31.037Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T10:51:20.863Z
+Cannot read property 'split' of undefined
+
+2017-05-22T10:51:20.863Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T10:51:31.052Z
+Cannot read property 'split' of undefined
+
+2017-05-22T10:51:31.052Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+2017-05-22T10:53:20.966Z
+Cannot read property 'split' of undefined
+
+2017-05-22T10:53:20.966Z
+TypeError: Cannot read property 'split' of undefined
+    at Object.verifyToken (/home/jozreel/Dev/node/bookingapi/myutils.js:123:17)
+    at user.refreshusertoken (/home/jozreel/Dev/node/bookingapi/application/controller/user.js:301:37)
+    at IncomingMessage.req.on (/home/jozreel/Dev/node/bookingapi/node_modules/simple/apphelper.js:137:23)
+    at emitNone (events.js:86:13)
+    at IncomingMessage.emit (events.js:188:7)
+    at endReadableNT (_stream_readable.js:975:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)

@@ -6,4 +6,4 @@ regxpfind:function(needle)
     tmodel.findByRegex(needle,(res)=>this.jsonResp(res));
 }
 }
-module.exports =towns;
+module.exports =towns; 
